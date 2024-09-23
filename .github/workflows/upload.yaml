@@ -1,7 +1,7 @@
 name: Slack File Upload
 
 on:
- pull_request:
+ push:
    branches:
      - master
 
