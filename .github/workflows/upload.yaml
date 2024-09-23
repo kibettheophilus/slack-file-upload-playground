@@ -12,9 +12,9 @@ jobs:
 
     steps:
       - name: Checkout
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Upload File
-      - uses: kibettheophilus/slack-file-upload@v0.1.1
+        uses: kibettheophilus/slack-file-upload@v0.1.1
         with:
           file: "artifact/to/upload.pdf"
