@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Upload File
-        uses: kibettheophilus/slack-file-upload@v0.1.1
+        uses: kibettheophilus/slack-file-upload@main
         with:
           file: "artifact/to/upload.pdf"
