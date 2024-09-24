@@ -18,3 +18,7 @@ jobs:
         uses: kibettheophilus/slack-file-upload@main
         with:
           file: "artifact/to/upload.pdf"
+          token: ${{ secrets.SLACK_TOKEN }}
+          filename: 'filename'
+          channelId: 'C12345'
+          message: 'This is a file'
